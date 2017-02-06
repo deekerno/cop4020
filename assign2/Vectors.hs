@@ -1,4 +1,6 @@
--- $Id: Vectors.hs,v 1.1 2015/01/21 21:50:41 leavens Exp leavens $
+--University of Central Florida
+--COP4020: Spring 2017
+--Group: That Rushing Water Sound You Hear in the Walls of CB2
 module Vectors where
 
 -- Vectors are represented by finite lists of coordinate values.
@@ -8,12 +10,10 @@ add :: Vector -> Vector -> Vector
 dot :: Vector -> Vector -> Double
 
 -- scale returns the Vector with each coordinate multiplied by the Double
- -- put your solution here
+scale y v = map (*y) v
 
 -- add returns a Vector that is the pointwise sum of the two arguments
--- The two arguments are assumed to have the same length.
- -- put your solution here
+add a b = zipWith (+) a b
 
 -- dot returns the dot product of the Vector arguments
--- The two arguments are assumed to have the same length.
- -- put your solution here
+dot a b = sum (zipWith (*) a b)

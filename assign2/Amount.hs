@@ -1,3 +1,6 @@
--- $Id: Amount.hs,v 1.2 2015/01/21 20:43:49 leavens Exp leavens $
+--University of Central Florida
+--COP4020: Spring 2017
+--Group: That Rushing Water Sound You Hear in the Walls of CB2
+
 module Amount where
 data Amount = Zero | One | Two | Three

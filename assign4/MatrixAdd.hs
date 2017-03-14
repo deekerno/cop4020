@@ -2,7 +2,6 @@
 --COP4020: Spring 2017
 --Group: That Rushing Water Sound You Hear in the Walls of CB2
 
--- $Id: MatrixAdd.hs,v 1.1 2013/09/24 14:54:21 leavens Exp $
 module MatrixAdd where
 import Matrix
 import MatrixInstances

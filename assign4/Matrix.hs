@@ -2,7 +2,6 @@
 --COP4020: Spring 2017
 --Group: That Rushing Water Sound You Hear in the Walls of CB2
 
--- $Id: Matrix.hs,v 1.2 2015/02/12 03:40:09 leavens Exp $
 module Matrix (Matrix, fillWith, fromRule, numRows, numColumns, 
                at, mtranspose, mmap) where
 
